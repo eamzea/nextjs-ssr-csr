@@ -1,0 +1,20 @@
+// change the theme
+$theme-colors: (
+  "dark-gray": $ui-dark-gray,
+  "medium-gray": $ui-medium-gray,
+  "light-gray": $ui-light-gray,
+  "shade-gray": $ui-shade-gray,
+  "image-caption": $image-caption,
+  "primary": $primary,
+  "primary-light": $primary-light,
+  "primary-dark": $primary-dark,
+  "secondary": $secondary,
+  "success": $success,
+  "warning": $warning,
+  "danger": $danger,
+  "black": $black,
+  "white": $white,
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
