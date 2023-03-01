@@ -7,5 +7,17 @@
       color: $primary !important;
       border: 1px dashed $black !important;
     }
+
+    &-copied {
+      background-color: $primary-light;
+      border: none;
+      color: $white;
+
+      &:hover {
+        background-color: $primary-light;
+        color: $white !important;
+        border: none !important;
+      }
+    }
   }
 }
